@@ -42,9 +42,12 @@
   body {
     background-color: white;
     background-image: url("top-image.png");
-    background-image: url("top-image.png"), url("bottom-image.png"), linear-gradient(rgba(0, 0, 0, 0.2), rgba(0,0,0,0)20%, rgba(0,0,0,0)80%, rgba(0,0,0,.2));
-    background-repeat: no-repeat, no-repeat, no-repeat;
-    background-position: top, bottom, center;
+    background:  
+      linear-gradient(rgba(0, 0, 0, 0.15), rgba(0,0,0,0)15%, rgba(0,0,0,0)85%, rgba(0,0,0,.15)),
+      url("top-image.png") no-repeat top,
+      url("bottom-image.png") no-repeat bottom;
+    border-bottom: 1mm solid green;
+    border-top: 1mm solid green;
     border-bottom: 1mm solid rgb(156,203,4);
     border-top: 1mm solid rgb(156,203,4);
   }
@@ -54,5 +57,5 @@
      /* filter:drop-shadow(3px 3px 4px black);  */
      border-radius: 50%;
      box-shadow: 3px 3px 2px black; 
-     /* not a fan of that white line between the box-shadow and the image. */
+     /* Not a fan of that white line between the box-shadow and the image. */
   }
