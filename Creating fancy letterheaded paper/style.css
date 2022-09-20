@@ -48,9 +48,8 @@
       url("bottom-image.png") no-repeat bottom;
     border-bottom: 1mm solid green;
     border-top: 1mm solid green;
-    border-bottom: 1mm solid rgb(156,203,4);
-    border-top: 1mm solid rgb(156,203,4);
   }
+
   h1 {
      background: url("logo.png"); 
      background-repeat: no-repeat;
